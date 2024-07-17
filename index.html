@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
-<head>
-  <title>KpuCko Helm Charts</title>
-</head>
-<h2>It works!</h2>
-</body>
-</html>
+<h1 id="helm-charts">Helm Charts</h1>
+<p>This repository will be used to store my personal helm charts created for testing and production use.
+If this feeds your needs use it as it is or contribute.</p>
+<h2 id="usage">Usage</h2>
+<p>Just add this as a new repository for your local helm installation:</p>
+<pre><code>root<span class="hljs-variable">@sofx1022k3s3018</span><span class="hljs-symbol">:~</span><span class="hljs-comment"># helm repo add kpucko-charts https://kpucko.github.io/Helm_Charts</span>
+<span class="hljs-string">"kpucko-charts"</span> has been added to your repositories
+root<span class="hljs-variable">@sofx1022k3s3018</span><span class="hljs-symbol">:~</span><span class="hljs-comment"># helm repo update</span>
+</code></pre><h2 id="automation">Automation</h2>
+<p>Every change in the repository will be done through PR. After the merge to main branch, the CI/CD automation will be triggered which will refresh the index of the charts.</p>
+<h2 id="project-repository">Project repository</h2>
+<p>The project is hosted in Github at URL: <a href="https://github.com/KpuCko/Helm_Charts">https://github.com/KpuCko/Helm_Charts</a></p>
