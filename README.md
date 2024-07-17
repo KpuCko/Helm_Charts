@@ -1,3 +1,5 @@
+# Helm Charts
+
 This repository will be used to store my personal helm charts created for testing and production use.
 If this feeds your needs use it as it is or contribute.
 
@@ -13,3 +15,7 @@ root@sofx1022k3s3018:~# helm repo update
 
 ## Automation
 Every change in the repository will be done through PR. After the merge to main branch, the CI/CD automation will be triggered which will refresh the index of the charts.
+
+## Project repository
+
+The project is hosted in Github at URL: https://github.com/KpuCko/Helm_Charts
