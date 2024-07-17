@@ -1,5 +1,3 @@
-# Helm Charts
-
 This repository will be used to store my personal helm charts created for testing and production use.
 If this feeds your needs use it as it is or contribute.
 
